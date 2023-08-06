@@ -53,11 +53,22 @@ export const testimonials = [
 export const skills = [
   {
     name: "JavaScript",
-    icon: ["fab", "js"], // For example, use ["fab", "js"] for Font Awesome JS icon
+    icon: "fab fa-js",
   },
   {
     name: "React",
-    icon: ["fab", "react"], // For example, use ["fab", "react"] for Font Awesome React icon
+    icon: "fab fa-react",
   },
-  // Add other skills
+  {
+    name: "HTML",
+    icon: "fab fa-html5",
+  },
+  {
+    name: "CSS",
+    icon: "fab fa-css3-alt",
+  },
+  {
+    name: "Node.js",
+    icon: "fab fa-node-js",
+  },
 ];
