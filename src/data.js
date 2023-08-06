@@ -49,3 +49,14 @@ export const testimonials = [
     company: "XYZ Inc.",
   },
 ];
+
+export const skills = [
+  {
+    name: "JavaScript",
+    icon: "fab fa-js",
+  },
+  {
+    name: "React",
+    icon: "fab fa-react",
+  },
+];
