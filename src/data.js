@@ -34,3 +34,18 @@ export const projects = [
     link: "https://pythonbootcamp.com",
   },
 ];
+
+export const testimonials = [
+  {
+    quote: "Lorem ipsum dolor sit amet...",
+    image: "./testimonial-1.jpg",
+    name: "John Doe",
+    company: "ABC Company",
+  },
+  {
+    quote: "Lorem ipsum dolor sit amet...",
+    image: "./testimonial-2.jpg",
+    name: "Jane Smith",
+    company: "XYZ Inc.",
+  },
+];
