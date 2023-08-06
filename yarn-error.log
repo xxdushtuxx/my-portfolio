@@ -1,0 +1,54 @@
+Arguments: 
+  /usr/local/bin/node /opt/homebrew/Cellar/yarn/1.22.19/libexec/bin/yarn.js install
+
+PATH: 
+  /Users/mahin/.rvm/gems/ruby-3.0.0/bin:/Users/mahin/.rvm/gems/ruby-3.0.0@global/bin:/Users/mahin/.rvm/rubies/ruby-3.0.0/bin:/Users/mahin/anaconda3/condabin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/mahin/.rvm/gems/ruby-3.0.0/bin:/Users/mahin/.rvm/gems/ruby-3.0.0@global/bin:/Users/mahin/.rvm/rubies/ruby-3.0.0/bin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/mahin/.rvm/bin:/Users/mahin/.rvm/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.16.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: EACCES: permission denied, mkdir '/Users/mahin/Desktop/RRC/Business Testing/my-portfolio/node_modules/array-buffer-byte-length'
+
+npm manifest: 
+  {
+    "name": "my-portfolio",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@craco/craco": "^5.9.0",
+      "@heroicons/react": "^1.0.1",
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2",
+      "react-scripts": "^1.1.5"
+    },
+    "scripts": {
+      "start": "craco start",
+      "build": "craco build",
+      "test": "craco test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "devDependencies": {
+      "autoprefixer": "^9.8.6",
+      "postcss": "^7.0.36",
+      "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
